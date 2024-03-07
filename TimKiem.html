@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellcome To Onii Home</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/animate.css" rel="stylesheet" />
+    <link href="./css/timkiem.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header_top">
+            <div class="container">
+                <div class="main">
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a href="#">Kênh Người Bán</a>
+                            </li>
+                            <li>
+                                <a href="#">Trở Thành Người Bán Onii</a>
+                            </li>
+                            <li>
+                                <a href="#">Tải Ứng Dụng</a>
+                            </li>
+                            <li style="border: 0;">
+                                <a href="#">Kết Nối</a>
+                                <a href="#">
+                                    <svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.99999 0.373413C3.6 0.373413 0 4.47424 0 9.52492C0 14.0915 2.928 17.8818 6.75199 18.5668V12.1736H4.71999V9.52492H6.75199V7.50647C6.75199 5.21403 7.94399 3.95364 9.77599 3.95364C10.648 3.95364 11.56 4.12717 11.56 4.12717V6.38308H10.552C9.55999 6.38308 9.24799 7.08634 9.24799 7.80787V9.52492H11.472L11.112 12.1736H9.24799V18.5668C11.1331 18.2269 12.8497 17.1288 14.0879 15.4707C15.3261 13.8126 16.0043 11.7038 16 9.52492C16 4.47424 12.4 0.373413 7.99999 0.373413Z"
+                                            fill="#EE4623" />
+                                    </svg>
+
+                                </a>
+                                <a href="#">
+                                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.29999 2.05154C10.5 2.05154 10.8 2.05154 11.7 2.05154C12.5 2.05154 12.9 2.2415 13.2 2.33648C13.6 2.52644 13.9 2.62142 14.2 2.90636C14.5 3.1913 14.7 3.47624 14.8 3.85616C14.9 4.1411 15 4.52102 15.1 5.28087C15.1 6.13569 15.1 6.32565 15.1 8.5102C15.1 10.6947 15.1 10.8847 15.1 11.7395C15.1 12.4994 14.9 12.8793 14.8 13.1642C14.6 13.5442 14.5 13.8291 14.2 14.114C13.9 14.399 13.6 14.5889 13.2 14.6839C12.9 14.7789 12.5 14.8739 11.7 14.9689C10.8 14.9689 10.6 14.9689 8.29999 14.9689C5.99999 14.9689 5.79999 14.9689 4.89999 14.9689C4.09999 14.9689 3.7 14.7789 3.4 14.6839C3 14.494 2.7 14.399 2.4 14.114C2.1 13.8291 1.9 13.5442 1.8 13.1642C1.7 12.8793 1.6 12.4994 1.5 11.7395C1.5 10.8847 1.5 10.6947 1.5 8.5102C1.5 6.32565 1.5 6.13569 1.5 5.28087C1.5 4.52102 1.7 4.1411 1.8 3.85616C2 3.47624 2.1 3.1913 2.4 2.90636C2.7 2.62142 3 2.43146 3.4 2.33648C3.7 2.2415 4.09999 2.14652 4.89999 2.05154C5.79999 2.05154 6.09999 2.05154 8.29999 2.05154ZM8.29999 0.626831C5.99999 0.626831 5.79999 0.626831 4.89999 0.626831C3.99999 0.626831 3.4 0.816792 2.9 1.00675C2.4 1.19671 1.9 1.48165 1.4 1.95656C0.899999 2.43146 0.7 2.81138 0.4 3.38126C0.2 3.85616 0.0999999 4.42604 0 5.28087C0 6.13569 0 6.42063 0 8.5102C0 10.6947 0 10.8847 0 11.7395C0 12.5943 0.2 13.1642 0.4 13.6391C0.6 14.114 0.899999 14.5889 1.4 15.0638C1.9 15.5387 2.3 15.7287 2.9 16.0136C3.4 16.2036 3.99999 16.2986 4.89999 16.3936C5.79999 16.3936 6.09999 16.3936 8.29999 16.3936C10.5 16.3936 10.8 16.3936 11.7 16.3936C12.6 16.3936 13.2 16.2036 13.7 16.0136C14.2 15.8237 14.7 15.5387 15.2 15.0638C15.7 14.5889 15.9 14.209 16.2 13.6391C16.4 13.1642 16.5 12.5943 16.6 11.7395C16.6 10.8847 16.6 10.5998 16.6 8.5102C16.6 6.42063 16.6 6.13569 16.6 5.28087C16.6 4.42604 16.4 3.85616 16.2 3.38126C16 2.90636 15.7 2.43146 15.2 1.95656C14.7 1.48165 14.3 1.29169 13.7 1.00675C13.2 0.816792 12.6 0.721811 11.7 0.626831C10.8 0.626831 10.6 0.626831 8.29999 0.626831Z"
+                                            fill="#EE4623" />
+                                        <path
+                                            d="M8.29999 4.42604C5.89999 4.42604 3.99999 6.23067 3.99999 8.5102C3.99999 10.7897 5.89999 12.5943 8.29999 12.5943C10.7 12.5943 12.6 10.7897 12.6 8.5102C12.6 6.23067 10.7 4.42604 8.29999 4.42604ZM8.29999 11.1696C6.79999 11.1696 5.49999 10.0299 5.49999 8.5102C5.49999 7.08549 6.69999 5.85075 8.29999 5.85075C9.79999 5.85075 11.1 6.99051 11.1 8.5102C11.1 9.9349 9.79999 11.1696 8.29999 11.1696Z"
+                                            fill="#EE4623" />
+                                        <path
+                                            d="M12.7 5.28087C13.2523 5.28087 13.7 4.85563 13.7 4.33106C13.7 3.8065 13.2523 3.38126 12.7 3.38126C12.1477 3.38126 11.7 3.8065 11.7 4.33106C11.7 4.85563 12.1477 5.28087 12.7 5.28087Z"
+                                            fill="#EE4623" />
+                                    </svg>
+
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu1">
+                        <ul>
+                            <li>
+                                <a href="#"><svg width="16" height="18" viewBox="0 0 16 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.6654 13.4206H3.58936V7.605C3.58936 5.36824 5.38403 3.57882 7.62738 3.57882C9.87073 3.57882 11.6654 5.36824 11.6654 7.605V13.4206ZM13.4601 12.5259V7.605C13.4601 4.85825 11.5398 2.55886 8.97339 1.95046V1.34206C8.97339 0.986123 8.83158 0.644765 8.57915 0.39308C8.32673 0.141395 7.98436 0 7.62738 0C7.2704 0 6.92803 0.141395 6.67561 0.39308C6.42318 0.644765 6.28137 0.986123 6.28137 1.34206V1.95046C3.70601 2.55886 1.79468 4.85825 1.79468 7.605V12.5259L0 14.3153V15.21H15.2548V14.3153L13.4601 12.5259ZM7.62738 17.8941C8.10336 17.8941 8.55984 17.7056 8.89641 17.37C9.23298 17.0344 9.42206 16.5793 9.42206 16.1047H5.8327C5.8327 16.5793 6.02178 17.0344 6.35835 17.37C6.69492 17.7056 7.1514 17.8941 7.62738 17.8941Z"
+                                            fill="#EE4623" />
+                                    </svg>
+
+                                    Thông Báo</a>
+                            </li>
+                            <li>
+                                <a href="#"><svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M8 2.03766C4.41015 2.03766 1.5 5.34676 1.5 9.42874C1.5 13.5108 4.41015 16.8198 8 16.8198C11.5899 16.8198 14.5 13.5108 14.5 9.42874C14.5 5.34676 11.5899 2.03766 8 2.03766ZM0 9.42874C0 4.40476 3.58172 0.332031 8 0.332031C12.4183 0.332031 16 4.40476 16 9.42874C16 14.4527 12.4183 18.5254 8 18.5254C3.58172 18.5254 0 14.4527 0 9.42874ZM9 12.84C9 13.468 8.55229 13.9771 8 13.9771C7.44772 13.9771 7 13.468 7 12.84C7 12.212 7.44772 11.7029 8 11.7029C8.55229 11.7029 9 12.212 9 12.84ZM6.92082 7.25168C7.00133 7.06858 7.11032 6.91142 7.25977 6.79813C7.40453 6.6884 7.63124 6.58602 8 6.58602C8.27975 6.58602 8.55291 6.68444 8.7375 6.84186C8.90206 6.9822 9 7.16604 9 7.43883C9 7.63967 8.95919 7.73881 8.92283 7.80083C8.87748 7.87819 8.79924 7.96374 8.64646 8.07957C8.57007 8.13747 8.48788 8.19375 8.38754 8.26221L8.38141 8.2664L8.38139 8.26641C8.28769 8.33033 8.17704 8.40583 8.06831 8.48825C7.84608 8.65674 7.58057 8.89103 7.37593 9.24012C7.14619 9.63203 7.23935 10.1615 7.58401 10.4227C7.92867 10.684 8.39432 10.5781 8.62406 10.1861C8.66942 10.1088 8.74766 10.0232 8.90043 9.90737C8.97681 9.84947 9.059 9.7932 9.15933 9.72474L9.16554 9.7205L9.1656 9.72047C9.25926 9.65657 9.36986 9.58111 9.47854 9.49871C9.70075 9.33025 9.96627 9.09599 10.1709 8.74694C10.3846 8.38255 10.5 7.94868 10.5 7.43883C10.5 6.57454 10.1396 5.90556 9.6375 5.47736C9.15542 5.06623 8.55358 4.88038 8 4.88038C7.36876 4.88038 6.84547 5.06227 6.42772 5.37895C6.01467 5.69207 5.74866 6.10346 5.57918 6.4889C5.39393 6.91017 5.5441 7.42244 5.91459 7.63307C6.28507 7.84371 6.73558 7.67295 6.92082 7.25168Z"
+                                            fill="#EE4623" />
+                                    </svg>
+                                    Hỗ Trợ</a>
+                            </li>
+                            <li style="border-right: 1px solid #EE4623;"><a href="#">Đăng Ký</a></li>
+                            <li><a href="#">Đăng Nhập</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="container">
+                <div class="main1">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="search">
+                        <form>
+                            <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
+                                placeholder="Tìm Kiếm ...">
+                        </form>
+                        <button type="submit"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.5 0C8.22391 0 9.87721 0.684819 11.0962 1.90381C12.3152 3.12279 13 4.77609 13 6.5C13 8.11 12.41 9.59 11.44 10.73L11.71 11H12.5L17.5 16L16 17.5L11 12.5V11.71L10.73 11.44C9.55055 12.4468 8.05071 12.9999 6.5 13C4.77609 13 3.12279 12.3152 1.90381 11.0962C0.684819 9.87721 0 8.22391 0 6.5C0 4.77609 0.684819 3.12279 1.90381 1.90381C3.12279 0.684819 4.77609 0 6.5 0ZM6.5 2C4 2 2 4 2 6.5C2 9 4 11 6.5 11C9 11 11 9 11 6.5C11 4 9 2 6.5 2Z"
+                                    fill="white" />
+                            </svg>
+                        </button>
+                        <div class="shop">
+                            <a href="#"><svg width="42" height="34" viewBox="0 0 42 34" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M33.6 27.2C34.7139 27.2 35.7822 27.5582 36.5698 28.1958C37.3575 28.8335 37.8 29.6983 37.8 30.6C37.8 31.5017 37.3575 32.3665 36.5698 33.0042C35.7822 33.6418 34.7139 34 33.6 34C32.4861 34 31.4178 33.6418 30.6302 33.0042C29.8425 32.3665 29.4 31.5017 29.4 30.6C29.4 28.713 31.269 27.2 33.6 27.2ZM0 0H6.867L8.841 3.4H39.9C40.457 3.4 40.9911 3.57911 41.3849 3.89792C41.7788 4.21673 42 4.64913 42 5.1C42 5.389 41.895 5.678 41.748 5.95L34.23 16.949C33.516 17.986 32.13 18.7 30.555 18.7H14.91L13.02 21.471L12.957 21.675C12.957 21.7877 13.0123 21.8958 13.1108 21.9755C13.2092 22.0552 13.3428 22.1 13.482 22.1H37.8V25.5H12.6C11.4861 25.5 10.4178 25.1418 9.63015 24.5042C8.8425 23.8665 8.4 23.0017 8.4 22.1C8.4 21.505 8.589 20.944 8.904 20.468L11.76 16.303L4.2 3.4H0V0ZM12.6 27.2C13.7139 27.2 14.7822 27.5582 15.5698 28.1958C16.3575 28.8335 16.8 29.6983 16.8 30.6C16.8 31.5017 16.3575 32.3665 15.5698 33.0042C14.7822 33.6418 13.7139 34 12.6 34C11.4861 34 10.4178 33.6418 9.63015 33.0042C8.8425 32.3665 8.4 31.5017 8.4 30.6C8.4 28.713 10.269 27.2 12.6 27.2ZM31.5 15.3L37.338 6.8H10.794L15.75 15.3H31.5Z"
+                                        fill="#EE4623" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div class="container" style="background-color: white;">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="tieude">
+                    <h1>BỘ LỌC TÌM KIẾM</h1>
+                </div>
+                <div class="bordergia">
+                    <div class="container">
+                        <h1>Giá</h1>
+                        <div class="bodygia">
+                            <input type="text" placeholder="0">
+                            <h2>đến</h2>
+                            <input type="text" placeholder="100"><br>
+                            <button>Tim kiếm </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="borderth">
+                    <div class="container">
+                        <h1>Các thương hiệu</h1>
+                        <div class="bodyth">
+                            <input type="text" placeholder="Search brand">
+                            <div class="row" style="padding-top: 60px;">
+                                <div class="col-md-6">Onicorn</div>
+                                <div class="col-md-6">
+                                    <h2>33</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="borderdm">
+                    <div class="container">
+                        <h1>Danh mục</h1>
+                        <div class="bodydm" >
+                            <div class="row">
+                                <div class="col-md-12" style="display: flex;flex-wrap: wrap;">
+
+                                    <h2 style="padding-right: 0%;">Điện thoại & máy tính bảng</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="https://onii.vn/products?id=38&data_from=category&page=1">Iphone</a>
+                                            <a class="dropdown-item" href="https://onii.vn/products?id=39&data_from=category&page=1">Samsung</a>
+                                            <a class="dropdown-item" href="https://onii.vn/products?id=40&data_from=category&page=1">Nokia</a>
+                                            <a class="dropdown-item" href="https://onii.vn/products?id=41&data_from=category&page=1">Xiaomi</a>
+                                            <a class="dropdown-item" href="https://onii.vn/products?id=42&data_from=category&page=1">Oppo</a>
+                                            <a class="dropdown-item" href="https://onii.vn/products?id=43&data_from=category&page=1">Vsmart</a>
+                                        </div>
+                                    </li>
+                                    <h2>Điện tử & Điện lạnh</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="https://onii.vn/products?id=58&data_from=category&page=1">Tv</a>
+                                            <a class="dropdown-item" href="#">Máy lạnh</a>
+                                            <a class="dropdown-item" href="#">Tủ lạnh</a>
+                                            <a class="dropdown-item" href="#">Máy giặt</a>
+                                            <a class="dropdown-item" href="#">Máy nước nóng</a>
+                                            <a class="dropdown-item" href="#">Máy rửa chén</a>
+                                        </div>
+                                    </li>
+                                    <h2>Phụ kiện & Thiết bị số</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Tai nghe</a>
+                                            <a class="dropdown-item" href="#">Loa</a>
+                                            <a class="dropdown-item" href="#">Thiết bị đeo thông minh</a>
+                                            <a class="dropdown-item" href="#">Phụ kiện điện thoại</a>
+                                            <a class="dropdown-item" href="#">Thiết bị game</a>
+                                            <a class="dropdown-item" href="#">Thiết bị mạng</a>
+                                        </div>
+                                    </li>
+                                    <h2>Laptop & Thiết bị IT</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Laptop theo giá</a>
+                                            <a class="dropdown-item" href="#">Laptop theo core</a>
+                                            <a class="dropdown-item" href="#">Lap top theo hãng</a>
+                                            <a class="dropdown-item" href="#">Phụ kiện và linh kiện</a>
+
+                                        </div>
+                                    </li>
+                                    <h2>Máy ảnh & Quay phim</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Top bán chạy</a>
+                                            <a class="dropdown-item" href="#">Sản phẩm nổi bật</a>
+                                            <a class="dropdown-item" href="#">Thương hiệu</a>
+                                            <a class="dropdown-item" href="#">Phụ kiện</a>
+
+                                        </div>
+                                    </li>
+                                    <h2>Điện gia dụng</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Sản phẩm khuyến mãi</a>
+                                            <a class="dropdown-item" href="#">Top bán chạy</a>
+                                            <a class="dropdown-item" href="#"> Thương hiệu </a>
+                                            <a class="dropdown-item" href="#">Đồ dùng nhà bếp</a>
+                                            <a class="dropdown-item" href="#">thiết bị gia đình</a>
+                                        </div>
+                                    </li>
+                                    <br>
+                                    <h2>Nhà cửa & Đời sống</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Hàng khuyến mãi</a>
+                                            <a class="dropdown-item" href="#">Top bán chạy</a>
+                                            <a class="dropdown-item" href="#">Thương hiệu hàng đầu</a>
+                                            <a class="dropdown-item" href="#">Đồ dùng gia đình</a>
+                                        </div>
+                                    </li>
+                                    <h2>Đồ chơi mẹ & bé</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Tã bỉm</a>
+                                            <a class="dropdown-item" href="#">Sửa - Thực phẩm ăn dặm</a>
+                                            <a class="dropdown-item" href="#">Đồ chơi</a>
+                                            <a class="dropdown-item" href="#">Thời trang phụ kiện cho bé</a>
+                                        </div>
+                                    </li>
+                                    <h2>Làm đẹp & Sức khỏe</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Trang điểm</a>
+                                            <a class="dropdown-item" href="#">Chăm sóc da mặt</a>
+                                            <a class="dropdown-item" href="#">Chăm sóc cơ thể</a>
+                                            <a class="dropdown-item" href="#">Chăm sóc tóc</a>
+
+
+                                        </div>
+                                    </li>
+                                    <h2>Thời trang & Phụ kiện</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Thời trang nam</a>
+                                            <a class="dropdown-item" href="#">Thời trang nữ</a>
+                                            <a class="dropdown-item" href="#">Thời trang trẻ em</a>
+                                            <a class="dropdown-item" href="#">Phụ kiện thể thao</a>
+
+                                        </div>
+                                    </li>
+                                    <h2>Thể thao & Du lịch</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Thương hiệu nổi bật</a>
+                                            <a class="dropdown-item" href="#">Thời trang thể thao</a>
+                                            <a class="dropdown-item" href="#">Thực phẩm bổ sung</a>
+
+                                        </div>
+                                    </li>
+                                    <h2>Ô tô & Xe máy & Xe đạp </h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Xe máy</a>
+                                            <a class="dropdown-item" href="#">Xe điện</a>
+                                            <a class="dropdown-item" href="#">Xe đạp</a>
+                                        </div>
+                                    </li>
+                                    <h2>Sách & Quà tặng</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Sách giáo khoa</a>
+                                            <a class="dropdown-item" href="#">Sách ngoại ngữ</a>
+                                            <a class="dropdown-item" href="#">Văn phòng phẩm</a>
+                                        </div>
+                                    </li><br>
+                                    <h2>Voucher & Dịch vụ</h2>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link fa fa-plus" href="#" id="navbardrop" data-toggle="dropdown">
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Nạp thẻ-Tiện ích
+
+                                               </a>
+                                            <a class="dropdown-item" href="#"> Nhà hàng - Buffet</a>
+                                            <a class="dropdown-item" href="#"> Spa - Làm đẹp </a>
+                                            <a class="dropdown-item" href="#"> Du lịch - Khách sạn</a>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="container">
+                    <div class="backgour4">
+                        <div class="sapxep">
+                            <label for="sapxep" style="margin-right: auto;">Sắp xếp theo:</label>
+                            <select name="sapxep" id="sapxep">
+                                <option value="thutu">Thứ tự mặc định</option>
+                                <option value="ten">Theo tên</option>
+                                <option value="gia">Theo giá</option>
+                            </select>
+                        </div>
+                        <div class="body-sp">
+                            <div class="row" style=" padding-top: 15px;">
+                                <div class="col-md-2">
+                                    <div class="goiy">
+                                        <a href="#"><img src="images/goiy1.jpg" alt="" class="imggoiy"></a>
+                                        <div class="noidung">
+                                            <p class="textp"> Máy Xay Sinh Tố Cầm Tay Mini Đa Năng 6 Lưỡi Xay cao cấp
+                                            </p>
+                                            <div class="goiy1">
+                                                <p style="font-size: 0.85rem;color: #EE4623;"><ins
+                                                        style="font-size: 0.50rem;">đ</ins>149.480</p>
+                                                <p
+                                                    style="display: flex;justify-content: flex-end;color: rgba(0,0,0,.54);font-size: 0.85rem;">
+                                                    Đã bán
+                                                    52</p>
+                                            </div>
+                                        </div>
+                                        <div class="btngoiy">
+                                            <a href="#" class="btntimsp">Tìm Sản Phẩm TươngTự</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="goiy">
+                                        <a href="#"><img src="images/goiy2.jpg" alt="" class="imggoiy"></a>
+                                        <div class="noidung">
+                                            <p class="textp">Kệ Gỗ - Kệ Sách Gỗ 5 Tầng Đa Năng (Kho:
+                                                KIMPHccccccccccccccc
+                                                okkk biết
+                                                r tư tut</p>
+                                            <div class="goiy1">
+                                                <p style="font-size: 0.85rem;color: #EE4623;"><ins
+                                                        style="font-size: 0.50rem;">đ</ins>186.480</p>
+                                                <p
+                                                    style="display: flex;justify-content: flex-end;color: rgba(0,0,0,.54);font-size: 0.85rem;">
+                                                    Đã bán
+                                                    14</p>
+                                            </div>
+                                        </div>
+                                        <div class="btngoiy">
+                                            <a href="#" class="btntimsp">Tìm Sản Phẩm TươngTự</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="goiy">
+                                        <a href="#"><img src="images/goiy3.jpg" alt="" class="imggoiy"></a>
+                                        <div class="noidung">
+                                            <p class="textp">Áo Nỉ Len Kẻ Caro (Có Ảnh Thật) sẵn hàng đủ size</p>
+                                            <div class="goiy1">
+                                                <p style="font-size: 0.85rem;color: #EE4623;"><ins
+                                                        style="font-size: 0.50rem;">đ</ins>139.000</p>
+                                                <p
+                                                    style="display: flex;justify-content: flex-end;color: rgba(0,0,0,.54);font-size: 0.85rem;">
+                                                    Đã bán
+                                                    506</p>
+                                            </div>
+                                        </div>
+                                        <div class="btngoiy">
+                                            <a href="#" class="btntimsp">Tìm Sản Phẩm TươngTự</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="goiy">
+                                        <a href="#"><img src="images/goiy4.jpg" alt="" class="imggoiy"></a>
+                                        <div class="noidung">
+                                            <p class="textp">(CHÍNH HÃNG) NƯỚC SÚC MIỆNG SMC AG+</p>
+                                            <div class="goiy1">
+                                                <p style="font-size: 0.85rem;color: #EE4623;"><ins
+                                                        style="font-size: 0.50rem;">đ</ins>98.000</p>
+                                                <p
+                                                    style="display: flex;justify-content: flex-end;color: rgba(0,0,0,.54);font-size: 0.85rem;">
+                                                    Đã bán
+                                                    212</p>
+                                            </div>
+                                        </div>
+                                        <div class="btngoiy">
+                                            <a href="#" class="btntimsp">Tìm Sản Phẩm TươngTự</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="goiy">
+                                        <a href="#"><img src="images/goiy4.jpg" alt="" class="imggoiy"></a>
+                                        <div class="noidung">
+                                            <p class="textp">(CHÍNH HÃNG) NƯỚC SÚC MIỆNG SMC AG+</p>
+                                            <div class="goiy1">
+                                                <p style="font-size: 0.85rem;color: #EE4623;"><ins
+                                                        style="font-size: 0.50rem;">đ</ins>98.000</p>
+                                                <p
+                                                    style="display: flex;justify-content: flex-end;color: rgba(0,0,0,.54);font-size: 0.85rem;">
+                                                    Đã bán
+                                                    212</p>
+                                            </div>
+                                        </div>
+                                        <div class="btngoiy">
+                                            <a href="#" class="btntimsp">Tìm Sản Phẩm TươngTự</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-sp">
+                            <div class="row" style=" padding-top: 15px;">
+                                <div class="col-md-2">
+                                    <div class="goiy">
+                                        <a href="#"><img src="images/goiy1.jpg" alt="" class="imggoiy"></a>
+                                        <div class="noidung">
+                                            <p class="textp"> Máy Xay Sinh Tố Cầm Tay Mini Đa Năng 6 Lưỡi Xay cao cấp
+                                            </p>
+                                            <div class="goiy1">
+                                                <p style="font-size: 0.85rem;color: #EE4623;"><ins
+                                                        style="font-size: 0.50rem;">đ</ins>149.480</p>
+                                                <p
+                                                    style="display: flex;justify-content: flex-end;color: rgba(0,0,0,.54);font-size: 0.85rem;">
+                                                    Đã bán
+                                                    52</p>
+                                            </div>
+                                        </div>
+                                        <div class="btngoiy">
+                                            <a href="#" class="btntimsp">Tìm Sản Phẩm TươngTự</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="goiy">
+                                        <a href="#"><img src="images/goiy2.jpg" alt="" class="imggoiy"></a>
+                                        <div class="noidung">
+                                            <p class="textp">Kệ Gỗ - Kệ Sách Gỗ 5 Tầng Đa Năng (Kho:
+                                                KIMPHccccccccccccccc
+                                                okkk biết
+                                                r tư tut</p>
+                                            <div class="goiy1">
+                                                <p style="font-size: 0.85rem;color: #EE4623;"><ins
+                                                        style="font-size: 0.50rem;">đ</ins>186.480</p>
+                                                <p
+                                                    style="display: flex;justify-content: flex-end;color: rgba(0,0,0,.54);font-size: 0.85rem;">
+                                                    Đã bán
+                                                    14</p>
+                                            </div>
+                                        </div>
+                                        <div class="btngoiy">
+                                            <a href="#" class="btntimsp">Tìm Sản Phẩm TươngTự</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="goiy">
+                                        <a href="#"><img src="images/goiy3.jpg" alt="" class="imggoiy"></a>
+                                        <div class="noidung">
+                                            <p class="textp">Áo Nỉ Len Kẻ Caro (Có Ảnh Thật) sẵn hàng đủ size</p>
+                                            <div class="goiy1">
+                                                <p style="font-size: 0.85rem;color: #EE4623;"><ins
+                                                        style="font-size: 0.50rem;">đ</ins>139.000</p>
+                                                <p
+                                                    style="display: flex;justify-content: flex-end;color: rgba(0,0,0,.54);font-size: 0.85rem;">
+                                                    Đã bán
+                                                    506</p>
+                                            </div>
+                                        </div>
+                                        <div class="btngoiy">
+                                            <a href="#" class="btntimsp">Tìm Sản Phẩm TươngTự</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="goiy">
+                                        <a href="#"><img src="images/goiy4.jpg" alt="" class="imggoiy"></a>
+                                        <div class="noidung">
+                                            <p class="textp">(CHÍNH HÃNG) NƯỚC SÚC MIỆNG SMC AG+</p>
+                                            <div class="goiy1">
+                                                <p style="font-size: 0.85rem;color: #EE4623;"><ins
+                                                        style="font-size: 0.50rem;">đ</ins>98.000</p>
+                                                <p
+                                                    style="display: flex;justify-content: flex-end;color: rgba(0,0,0,.54);font-size: 0.85rem;">
+                                                    Đã bán
+                                                    212</p>
+                                            </div>
+                                        </div>
+                                        <div class="btngoiy">
+                                            <a href="#" class="btntimsp">Tìm Sản Phẩm TươngTự</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="goiy">
+                                        <a href="#"><img src="images/goiy4.jpg" alt="" class="imggoiy"></a>
+                                        <div class="noidung">
+                                            <p class="textp">(CHÍNH HÃNG) NƯỚC SÚC MIỆNG SMC AG+</p>
+                                            <div class="goiy1">
+                                                <p style="font-size: 0.85rem;color: #EE4623;"><ins
+                                                        style="font-size: 0.50rem;">đ</ins>98.000</p>
+                                                <p
+                                                    style="display: flex;justify-content: flex-end;color: rgba(0,0,0,.54);font-size: 0.85rem;">
+                                                    Đã bán
+                                                    212</p>
+                                            </div>
+                                        </div>
+                                        <div class="btngoiy">
+                                            <a href="#" class="btntimsp">Tìm Sản Phẩm TươngTự</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10">
+                        <ul class="phantrang">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-2">
+                        <a style="color: black;text-decoration: none;" href="#" class="next"> Next ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="ft">
+                <div class="ft1">
+                    <p>CHĂM SÓC KHÁCH HÀNG</p>
+                    <a href="#">
+                        <p>Trung Tâm Trợ Giúp</p>
+                    </a>
+                    <a href="#">
+                        <p>Onii Blog</p>
+                    </a>
+                    <a href="#">
+                        <p>Onii Mail</p>
+                    </a>
+                    <a href="#">
+                        <p>Hướng Dẫn Mua hàng</p>
+                    </a>
+                    <a href="#">
+                        <p>Hướng Dẫn Bán hàng</p>
+                    </a>
+                    <a href="#">
+                        <p>Thanh Toán</p>
+                    </a>
+                    <a href="#">
+                        <p>Onii Xu</p>
+                    </a>
+                    <a href="#">
+                        <p>Vận Chuyển</p>
+                    </a>
+                    <a href="#">
+                        <p>Trả Hàn & Hoàn Tiền</p>
+                    </a>
+                    <a href="#">
+                        <p>Chăm Sóc Khách Hàng</p>
+                    </a>
+                    <a href="#">
+                        <p>Chính Sách Bảo Hành</p>
+                    </a>
+                </div>
+                <div class="ft2">
+                    <p>VỀ ONII</p>
+                    <a href="#">
+                        <p>Giới Thiệu Về Onii Việt Nam</p>
+                    </a>
+                    <a href="#">
+                        <p>Tuyển Dụng</p>
+                    </a>
+                    <a href="#">
+                        <p>Điều Khoản Onii</p>
+                    </a>
+                    <a href="#">
+                        <p>Chính Sách Bảo Mật</p>
+                    </a>
+                    <a href="#">
+                        <p>Chính Hãng</p>
+                    </a>
+                    <a href="#">
+                        <p>Kênh Người Bán</p>
+                    </a>
+                    <a href="#">
+                        <p>Flash Sales</p>
+                    </a>
+                    <a href="#">
+                        <p>Chương Trình Tiếp Thị Liên Kết Onii</p>
+                    </a>
+                    <a href="#">
+                        <p>Liên Hệ Với Truyền Thông</p>
+                    </a>
+                </div>
+                <div class="ft3">
+                    <p>THANH TOÁN</p>
+                    <span><a href="#"><svg width="86" height="20" viewBox="0 0 86 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M32.6839 1.26909L21.6216 19.6454H14.4044L8.95928 4.98139C8.62678 4.07714 8.34122 3.74759 7.33591 3.36628C5.69689 2.74529 2.98607 2.16516 0.603821 1.80292L0.764202 1.26909H12.382C13.8607 1.26909 15.1946 1.95544 15.531 3.14294L18.4061 13.776L25.5137 1.26909H32.6839ZM60.9618 13.6452C60.9931 8.79718 51.3312 8.52755 51.3977 6.36226C51.4172 5.70315 52.3208 5.00318 54.2923 4.82342C55.2703 4.73354 57.9655 4.66545 61.0244 5.64595L62.2253 1.74845C60.5785 1.33445 58.4661 0.934082 55.8375 0.934082C49.0897 0.934082 44.3409 3.43164 44.3018 7.00776C44.2548 9.65513 47.6932 11.1286 50.2789 12.0083C52.9389 12.9099 53.8307 13.4873 53.819 14.2907C53.7994 15.5245 51.6989 16.0693 49.7313 16.0883C46.3007 16.1265 44.3057 15.4428 42.7175 14.9281L41.4814 18.9563C43.0735 19.4656 46.019 19.9096 49.0741 19.9314C56.2482 19.9341 60.9384 17.4665 60.9618 13.6452ZM78.7837 19.6454H85.0972L79.5856 1.26909H73.7571C72.4467 1.26909 71.3397 1.80019 70.8507 2.61728L60.6059 19.6454H67.7722L69.196 16.9H77.9544L78.7837 19.6454ZM71.1636 13.1359L74.7585 6.23698L76.8278 13.1359H71.1636ZM42.4398 1.26909L36.7952 19.6454H29.9653L35.6138 1.26909H42.4398Z"
+                                    fill="url(#paint0_linear)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear" x1="0.603821" y1="10.4338" x2="85.0972"
+                                        y2="10.4338" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#231F5C" />
+                                        <stop offset="1" stop-color="#034EA2" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
+                    </span>
+                    <span><a href=""><svg width="53" height="22" viewBox="0 0 53 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M33.737 2.28564H19.7076V19.0654H33.737V2.28564Z" fill="#FF5F00" />
+                                <path
+                                    d="M20.5977 10.6739C20.5932 7.3986 22.8513 4.30705 26.7216 2.28554C19.7603 -1.35734 9.67695 -0.554068 4.20769 4.07881C-1.26602 8.71466 -0.0590401 15.4224 6.90224 19.0623C12.7189 22.1035 20.905 22.1035 26.7172 19.0623C22.8513 17.0408 20.5932 13.9492 20.5977 10.6739Z"
+                                    fill="#EB001B" />
+                                <path
+                                    d="M52.6612 10.674C52.6612 16.5666 45.4817 21.3447 36.6275 21.3447C33.0333 21.3447 29.546 20.5415 26.7178 19.0624C33.6791 15.4195 34.8861 8.70878 29.4124 4.0759C28.6241 3.40898 27.7199 2.80727 26.7178 2.28263C33.6791 -1.36025 43.7581 -0.556976 49.2318 4.07887C51.4542 5.96107 52.6612 8.28196 52.6612 10.674Z"
+                                    fill="#F79E1B" />
+                                <path
+                                    d="M51.1337 17.287V16.9432H51.343V16.8721H50.813V16.9432H51.0223V17.287H51.1337ZM52.1625 17.287V16.8721H51.9977L51.8106 17.1566L51.6236 16.8721H51.4632V17.287H51.579V16.9758L51.7527 17.2455H51.873L52.0467 16.9758V17.29H52.1625V17.287Z"
+                                    fill="#F79E1B" />
+                            </svg>
+                        </a>
+                    </span>
+                    <div class="vc">
+                        <p>ĐƠN VỊ VẬN CHUYỂN</p>
+                        <div class="logovc">
+                            <div class="logovc1"><a href="#"><span><img src="images/vc1.png" alt=""></span></a>
+                            </div>
+                            <div class="logovc1"><a href="#"><span><img src="images/vc2.png" alt=""></span></a>
+                            </div>
+                            <div class="logovc1"><a href="#"><span><img src="images/vc3.png" alt=""></span></a>
+                            </div>
+                        </div>
+                        <div class="logovc">
+                            <div class="logovc1"><a href="#"><span><img src="images/vc4.png" alt=""></span></a>
+                            </div>
+                            <div class="logovc1"><a href="#"><span><img src="images/vc5.png" alt=""></span></a>
+                            </div>
+                            <div class="logovc1"><a href="#"><span><img src="images/vc6.png" alt=""></span></a>
+                            </div>
+                        </div>
+                        <div class="logovc">
+                            <div class="logovc1"><a href="#"><span><img src="images/vc7.png" alt=""></span></a>
+                            </div>
+                            <div class="logovc1"><a href="#"><span><img src="images/vc8.png" alt=""></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ft4">
+                    <p>THEO DÕI CHÚNG TÔI TRÊN</p>
+                    <a href="">
+                        <p><svg width="27" height="18" viewBox="0 0 27 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.4708 0C6.13432 0 0.131714 4.05723 0.131714 9.05422C0.131714 13.5723 5.01383 17.3223 11.3899 18V11.6747H8.0018V9.05422H11.3899V7.05723C11.3899 4.78916 13.3775 3.54217 16.4321 3.54217C17.8861 3.54217 19.4068 3.71386 19.4068 3.71386V5.94578H17.726C16.072 5.94578 15.5517 6.64157 15.5517 7.35542V9.05422H19.26L18.6598 11.6747H15.5517V18C18.695 17.6637 21.5573 16.5773 23.6218 14.9368C25.6863 13.2963 26.8171 11.2099 26.81 9.05422C26.81 4.05723 20.8074 0 13.4708 0Z"
+                                    fill="#828282" />
+                            </svg>
+                            &ensp;Facebook</p>
+                    </a>
+                    <a href="">
+                        <p><svg width="27" height="18" viewBox="0 0 27 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.86842 0H19.0733C23.3418 0 26.81 2.34 26.81 5.22V12.78C26.81 14.1644 25.9949 15.4922 24.544 16.4711C23.0931 17.45 21.1252 18 19.0733 18H7.86842C3.59989 18 0.131714 15.66 0.131714 12.78V5.22C0.131714 3.83557 0.946829 2.50784 2.39774 1.5289C3.84866 0.549963 5.81652 0 7.86842 0V0ZM7.60163 1.8C6.32804 1.8 5.10661 2.14136 4.20604 2.74897C3.30548 3.35659 2.79954 4.1807 2.79954 5.04V12.96C2.79954 14.751 4.94715 16.2 7.60163 16.2H19.3401C20.6137 16.2 21.8351 15.8586 22.7357 15.251C23.6362 14.6434 24.1422 13.8193 24.1422 12.96V5.04C24.1422 3.249 21.9946 1.8 19.3401 1.8H7.60163ZM20.4739 3.15C20.9161 3.15 21.3402 3.26853 21.6529 3.4795C21.9656 3.69048 22.1413 3.97663 22.1413 4.275C22.1413 4.57337 21.9656 4.85952 21.6529 5.0705C21.3402 5.28147 20.9161 5.4 20.4739 5.4C20.0317 5.4 19.6076 5.28147 19.2949 5.0705C18.9822 4.85952 18.8065 4.57337 18.8065 4.275C18.8065 3.97663 18.9822 3.69048 19.2949 3.4795C19.6076 3.26853 20.0317 3.15 20.4739 3.15ZM13.4709 4.5C15.2397 4.5 16.9362 4.97411 18.187 5.81802C19.4377 6.66193 20.1404 7.80653 20.1404 9C20.1404 10.1935 19.4377 11.3381 18.187 12.182C16.9362 13.0259 15.2397 13.5 13.4709 13.5C11.702 13.5 10.0055 13.0259 8.75476 12.182C7.50397 11.3381 6.80129 10.1935 6.80129 9C6.80129 7.80653 7.50397 6.66193 8.75476 5.81802C10.0055 4.97411 11.702 4.5 13.4709 4.5V4.5ZM13.4709 6.3C12.4095 6.3 11.3917 6.58446 10.6412 7.09081C9.89073 7.59716 9.46911 8.28392 9.46911 9C9.46911 9.71608 9.89073 10.4028 10.6412 10.9092C11.3917 11.4155 12.4095 11.7 13.4709 11.7C14.5322 11.7 15.55 11.4155 16.3005 10.9092C17.051 10.4028 17.4726 9.71608 17.4726 9C17.4726 8.28392 17.051 7.59716 16.3005 7.09081C15.55 6.58446 14.5322 6.3 13.4709 6.3Z"
+                                    fill="#828282" />
+                            </svg>
+                            &ensp;Instagram</p>
+                    </a>
+                    <a href="">
+                        <p><svg width="27" height="18" viewBox="0 0 27 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.8458 0C24.6319 0 25.3859 0.210714 25.9418 0.585786C26.4977 0.960859 26.81 1.46957 26.81 2V16C26.81 16.5304 26.4977 17.0391 25.9418 17.4142C25.3859 17.7893 24.6319 18 23.8458 18H3.09597C2.3098 18 1.55583 17.7893 0.999924 17.4142C0.444018 17.0391 0.131714 16.5304 0.131714 16V2C0.131714 1.46957 0.444018 0.960859 0.999924 0.585786C1.55583 0.210714 2.3098 0 3.09597 0H23.8458ZM23.1047 15.5V10.2C23.1047 9.33539 22.5956 8.5062 21.6895 7.89483C20.7834 7.28346 19.5544 6.94 18.273 6.94C17.0131 6.94 15.5458 7.46 14.8344 8.24V7.13H10.6993V15.5H14.8344V10.57C14.8344 9.8 15.7533 9.17 16.8946 9.17C17.4449 9.17 17.9727 9.3175 18.3618 9.58005C18.7509 9.8426 18.9696 10.1987 18.9696 10.57V15.5H23.1047ZM5.88237 5.56C6.54275 5.56 7.17608 5.383 7.64305 5.06794C8.11001 4.75288 8.37234 4.32556 8.37234 3.88C8.37234 2.95 7.26075 2.19 5.88237 2.19C5.21805 2.19 4.58095 2.36805 4.11121 2.68499C3.64147 3.00193 3.37757 3.43178 3.37757 3.88C3.37757 4.81 4.50399 5.56 5.88237 5.56ZM7.94253 15.5V7.13H3.83703V15.5H7.94253Z"
+                                    fill="#828282" />
+                            </svg>
+                            &ensp;LinkedIn</p>
+                    </a>
+                    <a href="#">
+                        <img src="images/ft.png" alt="" style="padding-top: 20px;width: 60%;">
+                    </a>
+                </div>
+                <div class="ft5">
+                    <p>TẢI ỨNG DỤNG NGAY THÔI</p>
+                    <a href="#"><img src="images/app.png" alt="" class="app"></a>
+                    <br>
+                    <a href="#"><img src="images/app2.png" alt="" class="app"></a>
+                </div>
+            </div>
+            <div class="ft6">
+                <div class="textft6">
+                    <ul>
+                        <li><a href="#">CHÍNH SÁCH BẢO MẬT</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">QUY CHẾ HOẠT ĐỘNG</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">CHÍNH SÁCH VẬN CHUYỂN</a></li>
+                    </ul>
+                    <ul>
+                        <li style="border: none;"><a href="#">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ft7">
+                <p style="margin: 0; color: #000000;font-size: 0.85rem;">© 2021 Onii. Tấc cả các quyền được bảo
+                    lưu.</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,282 @@
+body
+{
+    background: #F8F8F8;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header .header_top {
+    background: #F5F5F5;
+    display: flex;
+    align-items: center;
+}
+header .header_top .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header_top .main .menu {
+    display: flex;
+    width: 100%;
+    max-width: 667px;
+    padding-top: 10px;
+}
+header .header_top .main .menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+header .header_top .main .menu ul li {
+    border-right: 1px solid #EE4623;
+    padding: 0 .4375rem;
+    font-size: .8125rem;
+}
+header .header_top .main .menu ul li a {
+    color: #EE4623;
+    text-decoration: none;
+}
+header .header_top .main .menu ul li :hover {
+    color: #C4C4C4;
+}
+header .header_top .main .menu ul li a:hover svg path {
+    fill: #C4C4C4;
+}
+header .header_top .main .menu1 {
+    display: flex;  
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+header .header_top .main .menu1 ul { 
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+header .header_top .main .menu1 ul li {
+    padding: 0 .4375rem;
+    font-size: .8125rem;
+}
+header .header_top .main .menu1 ul li a {
+    color: #EE4623;
+    text-decoration: none;
+}
+header .header_top .main .menu1 ul li :hover {
+    color: #C4C4C4;
+}
+header .header_top .main .menu1 ul li a:hover svg path {
+    fill: #C4C4C4;
+}
+header .header_bottom{
+    padding: 20px;
+    background-color: #F5F5F5;
+}
+header .header_bottom .main1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .header_bottom .main1 .logo {
+    max-width: 270px;
+    width: 100%;
+  }
+header .header_bottom .main1 .search{
+    display: flex;
+    width: 100%;
+    max-width: 735px;
+    align-items: center;
+    margin-right: 60px;
+    
+}
+header .header_bottom .main1 .search form{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+header .header_bottom .main1 .search button{
+ background: #EE4D2D;
+ border: 0;
+ outline: none;
+ opacity: 1;
+ margin-left: -35px;
+}
+header .header_bottom .main1 .shop{
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+/*body*/
+.tieuDe p{
+color: palevioletred;
+border: 1px solid palevioletred;
+border-radius: 50px 50px;
+text-align: center;
+}
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    width:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+.sanpham span{
+    color: green;
+    border: 1px solid green;
+    border-radius: 50px 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.code input[type=text] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .sanpham button{
+    color: white;
+    background-color: red;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 14px;
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+.sanpham{
+    border-top: 1px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.thanhtoan a{
+    color: hotpink;
+}
+.thanhtoan span{
+    padding-left: 30px;
+}
+.thanhtoan button{
+    color: white;
+    background-color: red;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left:50% ;
+}
+.thanhtoan{
+    border: 0px solid;
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 150px;
+}
+.hinhanh{
+    margin-bottom: 200px;
+}
+/*footer*/
+footer{
+    border-top: 2px solid #EE4D2D;
+    background: #DFDFDF;
+    font-size: 0.75rem;
+    padding-top: 40px;
+}
+footer .container a{
+    color: #828282;
+    text-decoration: none;
+}
+
+footer .container p{
+    color: #828282;
+    margin-bottom: 0.50rem;
+}
+.ft{
+    display: flex;
+    justify-content: space-between;
+}
+.logovc{
+    display: flex;
+}
+
+.logovc1{
+    padding-top: 5px;
+    padding-right: 10px;
+    display: flex;
+}
+.vc{
+    padding-top: 80px;
+}
+.app{
+    padding-top: 10px;
+}
+.ft6
+{
+    display: flex;
+    align-items: center;
+    
+}
+.ft6 .textft6{
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+}
+.ft6 .textft6 ul{  
+    border-top: 1px solid #EE4D2D;
+    border-bottom: 1px solid #EE4D2D;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 5px;
+}
+.ft6 .textft6 ul li {
+    border-right: 1px solid #C4C4C4;
+    padding: 5px;
+    font-size: .8125rem;
+}
+.ft6 .textft6 ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.ft7{
+   
+    padding-top: 15px;
+    text-align: center;
+}
